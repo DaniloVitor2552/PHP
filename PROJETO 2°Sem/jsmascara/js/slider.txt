@@ -1,0 +1,46 @@
+<div id="slider">
+                <div style="position:relative;top:90px;left:0;width:100%;overflow:hidden;" class="center">
+                    <!--#region Jssor Slider Begin -->
+                    <div id="slider1_container">
+                        <!-- Loading Screen -->
+                        <div data-u="loading" class="jssorl-009-spin" >
+                            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../svg/loading/static-svg/spin.svg" alt=""/>
+                        </div>
+            
+                        <!-- Slides Container -->
+                        <div data-u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1400px;  height: 600px; overflow: hidden;">
+                            <div>
+                                <img data-u="image" src="img/slider/aquaman.jpg" alt="Aquaman" />
+                            </div>
+                            <div>
+                                <img data-u="image" src="img/slider/deadpool.jpg" alt="Deadpool"/>
+                            </div>
+                            <div>
+                                <img data-u="image" src="img/slider/malevola.jpg" alt="Malevola" />
+                            </div>
+                            <div>
+                                <img data-u="image" src="img/slider/vingadores.jpg" alt="Vingadores"/>
+                            </div>
+                            
+                        </div>
+                        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                                <svg viewBox="0 0 16000 16000" style="position:absolute;top:-10;left:0;width:100%;height:100%;">
+                                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                            <svg viewBox="0 0 16000 16000" style="position:absolute;top:-10;left:0;width:100%;height:100%;">
+                                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                            </svg>
+                        </div>
+                        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                            <svg viewBox="0 0 16000 16000" style="position:absolute;top:-10;left:0;width:100%;height:100%;">
+                                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                            </svg>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>

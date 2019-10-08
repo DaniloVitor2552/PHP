@@ -1,0 +1,387 @@
+/*CLASSES PARA PADRONIZAÇÃO DO SITE*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+	padding: 0;
+}
+
+.conteudo{
+    width: 1500px;
+    height: 1700px;
+    background-color: #e3e3da; 
+    overflow: hidden;
+    padding-top: 30px;
+	box-sizing: border-box;
+/*
+   
+    box-sizing: border-box;
+*/
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{
+    background-color: #e3e3da;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,h2{
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing:0px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding-top: 20px;
+/*    text-transform: uppercase; */
+ }
+
+h2{
+    font-size: 22px;
+    text-transform: capitalize;
+    color:black;
+    
+}
+
+p{
+    font-family: verdana;
+    font-size: 20px;
+    line-height: 1;
+    text-align: left;
+    width: inherit;
+    min-height: 18px; 
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    color: black;
+	text-align: justify;
+    
+}
+
+/*      Area da caixa de login*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+input{
+    width: 80px;
+    
+}
+
+form{
+    
+}
+
+
+/*Area do site*/
+
+#caixa_menu{
+    width: 100%;
+    height: 125px;
+    background-color: #9c1414;
+    position: fixed;
+    z-index: 4;
+/*	float: left;*/
+	
+}
+
+#area_menu{
+    width: 1500px;
+    height: 125px;
+    background-color: #9c1414;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    background-color: #9c1414;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 7px;
+    background-image:url(../icon/icone_logo1.png); 
+    background-size: cover;
+}
+
+.menu_itens{
+    width: 140px;
+    height: 65px;
+    background-color: #9c1414;
+    list-style: none;
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-top:20px;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 35px;
+/*    margin-left: 20px;*/
+                 
+}
+
+
+a:link, a:visited {
+	text-decoration: none;
+    color: white;
+    
+	}
+a:hover { 
+	 color: #9c1414;
+	}
+
+
+.menu_itens:hover{
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #9c1414;
+   
+
+}
+.menu_itens:hover a{
+    color: #9c1414;
+}
+
+/*  Area formulario*/
+#area_input{
+    width: 290px;
+    height: 100px;
+    background-color: #9c1414;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+input{
+    border: solid 1px;
+}
+
+#area_usuario{
+    width: 100px;
+    height: 100px;
+    background-color: #9c1414;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-family: verdana;
+    color: white;
+}
+
+#usuario{
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+    margin-top: 8px;
+    
+}
+
+#senha{
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+    margin-top: 8px;
+    
+}
+
+#area_senha{
+    width: 100px;
+    height: 100px;
+    background-color: #9c1414;
+    float: left;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-family: verdana;
+    color: white;
+}
+
+#botao_cadastro{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px; 
+}
+
+#botao_cadastro > input {
+    width: inherit;
+    height: inherit;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+
+input{
+	border: solid 1px;
+}
+
+
+/*Area conteudo*/
+#historia{
+	width: 850px;
+	height: 500px;
+/*	background-color: yellowgreen;*/
+	float: left;
+	margin-top: 115px;
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+#historia_1{
+	width: 550px;
+	height: 500px;
+/*	background-color: aqua;*/
+	float: left;
+	margin-top: 115px;
+	box-sizing: border-box;
+	background-image: url(../img/pizza_sobre.jpg);
+	background-size: cover;
+	
+}
+
+#historia_2{
+	width: 550px;
+	height: 500px;
+/*	background-color: darkgreen;*/
+	float: left;
+	text-align: justify;
+	margin-top: 70px;
+	
+	
+}
+
+#historia_3{
+	width: 850px;
+	height: 500px;
+/*	background-color:cornflowerblue;*/
+	float: left;
+	margin-top: 70px;
+}
+
+#historia_4{
+	width: 850px;
+	height: 500px;
+/*	background-color: magenta;*/
+	float: left;
+	text-align: justify;
+	margin-top: 70px;
+    box-sizing: border-box;
+}
+
+#historia_5{
+	width: 550px;
+	height: 500px;
+/*	background-color: yellowgreen;*/
+	float: left;
+	margin-top: 70px;
+    box-sizing: border-box;
+	
+}
+
+/************   Area rodape   *************/
+#rodape{
+    width: 1400px;
+    height: 150px;
+    background-color: #9c1414;
+    margin-right: auto;
+    margin-left: auto;
+	margin-top: 50px;
+    
+}
+
+#botao_sistema{
+    width:250px;
+    height: 100px;
+    background-color: darkcyan;
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+    
+    
+}
+
+#botao_sistema > input {
+    width: inherit;
+    height: inherit;
+	font-size: 30px;
+    
+}
+
+#endereco{
+    width: 600px;
+    height: 100px;
+    background-color: #9c1414;
+    margin-left: 100px;
+    margin-top: 25px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    font-family: verdana;
+}
+
+#endereco h2{
+    color: white;
+}
+
+#app{
+    width: 300px;
+    height: 110px;
+    background-color: #9c1414;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+#app_image{
+    width: 100px;
+    height: 110px;
+/*    background-color: aqua;*/
+    margin-right: 10px;
+    float: left;
+    background-image: url(../icon/icone_android.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#baixe_app{
+    width: 180px;
+    height: 70px;
+    background-color: green;
+    float: left;
+    margin-top: 20px;
+    
+}
+
+#baixe_app > input{
+	width: inherit;
+	height: inherit;
+	font-size: 20px;
+}
+
+

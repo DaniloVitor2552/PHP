@@ -1,0 +1,77 @@
+
+            
+    *{
+
+     margin: 0px;
+     padding: 0px;
+
+     }
+
+    h1{
+        font-size: 40px;
+    }
+    
+    #total1{
+        width:600px;
+        height:523px;
+        background-color:white;
+/*        border: solid 1px;*/
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+
+    }
+
+    #cabecalho{
+        width: 100%;
+        height: 85px;
+        background-color: #4287f5;
+/*        border: solid 1px;*/
+        text-align: center;
+        padding-top: 40px;
+
+    }
+
+    #valores{
+        width: 100%;
+        height: 150px;
+/*        background-color: forestgreen;*/
+        padding-left: 150px;
+        box-sizing: border-box;
+        font-size: 20px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+
+     #resultado{
+        width: 298px;
+        height: 227px;;
+        background-color: #4287f5;
+/*        border: solid 1px;*/
+        float: left;
+        font-size: 150px;
+        
+         
+         margin-left: 3px;
+         text-align: center;
+
+
+    }
+    #operacoes{
+        width: 288px;
+        height: 245px;;
+/*                background-color: dodgerblue;*/
+        float: left;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    input{
+        margin: 10px;
+
+
+    }
+
+        

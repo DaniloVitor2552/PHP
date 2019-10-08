@@ -1,0 +1,157 @@
+/*Reset CSS para todos os elementos*/
+*{
+    
+    margin: 0px;
+    padding: 0px;
+  
+  }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.titulo_multi{
+    
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing:1px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase; 
+    padding-top: 150px;
+    color: black;
+ }
+
+
+#total{
+    width: 100%;
+    height: 1000px;
+    background-image:url(../img/calculo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+                
+ }
+            
+#caixa_menu{
+    width: 100%;
+    height: 100px;
+    background-color: #3a89c2;
+/*   background-image:url(../img/calculosFundo.png);*/
+}
+
+#conteudo{
+    width: 700px;
+    height: 500px;
+/*    background-color: dodgerblue;*/
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    
+}
+
+#icone{
+    width: 100px;
+    height: 100%;
+/*    background-color: cornflowerblue;*/
+    margin-left: 50px;
+    
+}
+
+#menuzin{
+    width: 100%;
+    height: 100%;
+    background-image:url(../img/iconfinder_Menu2_1891012.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#menu_vertical{
+    width: 150px;
+    height: 300px;
+/*    background-color: cyan;*/
+    margin-left: 100px;
+    margin-top: 30px;
+    float: left;
+    display: none;
+}
+
+.itens_menu{
+    width: inherit;
+    height: 40px;
+    background-color: #4287f5;
+    text-align: center;
+    margin-top: 10px;
+     padding-top: 20px;
+    border-radius: 20px;
+    list-style: none;
+    
+}
+
+#menuzin:hover > #menu_vertical{
+    display: block;
+    
+}
+    
+.itens_menu:hover{
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+      
+}
+
+#caixa_tabuada{
+    width: 700px;
+    height: 650px;
+    background-color: white;
+    
+    font-size: 22px;
+    
+}
+
+h1{
+    text-align: center;
+  
+}
+
+#caixa_calc{
+    width: 100%;
+    height: 200px;
+    background-color: dodgerblue;
+    padding-left: 60px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    
+}
+
+#caixa_result{
+    width: 350px;
+    height: auto;
+    min-height: 350px;
+    background-color: dodgerblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+input{
+    margin-left: 10px;
+    height: 20px;
+    
+}
+
+.botao{
+    width: 80px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 30px;
+    
+}
+
